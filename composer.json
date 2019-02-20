@@ -1,0 +1,27 @@
+{
+    "name": "devlabs91/oauth2",
+    "description": "Oauth2 services",
+    "require": {
+        "php": ">=7.1.16",
+        "league/oauth2-server": "^7.3",
+        "ramsey/uuid": "^3.8",
+        "beberlei/assert": "^3.2",
+        "symfony/security-bundle": "^4.2"
+    },
+    "replace": {
+        "paragonie/random_compat": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devlabs91\\Oauth2\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Devlabs91\\Oauth2\\Tests\\": "tests/src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6"
+    }
+}
