@@ -8,9 +8,6 @@
         "beberlei/assert": "^3.2",
         "symfony/security-bundle": "^4.2"
     },
-    "replace": {
-        "paragonie/random_compat": "*"
-    },
     "autoload": {
         "psr-4": {
             "Devlabs91\\Oauth2\\": "./src/"
