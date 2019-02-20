@@ -9,7 +9,7 @@
         "symfony/security-bundle": "^4.2"
     },
     "replace": {
-        "paragonie/random_compat": "2.*"
+        "paragonie/random_compat": "*"
     },
     "autoload": {
         "psr-4": {
